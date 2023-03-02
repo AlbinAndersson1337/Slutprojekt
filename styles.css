@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=League+Spartan:font-weight@100;200;300;400;500;60;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 65px;
+    color:black
+}
+h2 {
+    font-size: 46px;
+    line-height: 55px;
+    color:black
+}
+
+
+h4 {
+    font-size: 20px;
+    color:black
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+    margin: 20px 0 25px 0;
+}
+
+button.normal{
+  font-size: 18px;
+  font-weight: 666;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor:pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+body{
+    width: 100%;
+}
+.section-p1{
+    padding: 40px 80px;
+    
+  }
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  
+  #header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 80px;
+      background: #e7e7e7;
+      box-shadow: 0 7px 12px rgba(0, 0, 0, 0.08);
+      position: relative;
+  }
+  
+  #header-title {
+    font-size: 24px;
+    font-weight: 650;
+    position: absolute;
+    top: 22px;
+    left: 30%;
+    color:#4d72c4;
+  }
+  
+  #nav-container {
+      display: flex;
+      align-items: center;
+    }
+    
+    #navbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-left: auto;
+    }
+  
+    #navbar.active{
+      right: 0px;
+      transition: 0.4s;
+    }
+    
+    #navbar li {
+      margin-left: 25px;
+    }
+    
+    
+    #navbar li a {
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 666;
+      color: #1a1a1a;
+      transition: 0.5 ease; 
+    }
+    
+    #navbar li a:hover, #navbar li a.active {
+      color: #4d72c4;
+    }
